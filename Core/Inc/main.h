@@ -155,8 +155,6 @@ void Error_Handler(void);
 #define MFX_WAKEUP_GPIO_Port GPIOH
 #define USB_OTGFS_DM_Pin GPIO_PIN_11
 #define USB_OTGFS_DM_GPIO_Port GPIOA
-#define PSRAM_A2_Pin GPIO_PIN_2
-#define PSRAM_A2_GPIO_Port GPIOF
 #define PSRAM_A1_Pin GPIO_PIN_1
 #define PSRAM_A1_GPIO_Port GPIOF
 #define PSRAM_A0_Pin GPIO_PIN_0
@@ -193,8 +191,6 @@ void Error_Handler(void);
 #define LCD_PWR_ON_GPIO_Port GPIOH
 #define ARD_A3_Pin GPIO_PIN_10
 #define ARD_A3_GPIO_Port GPIOF
-#define ARD_A0_Pin GPIO_PIN_4
-#define ARD_A0_GPIO_Port GPIOC
 #define PSRAM_A11_Pin GPIO_PIN_1
 #define PSRAM_A11_GPIO_Port GPIOG
 #define D7_Pin GPIO_PIN_10
