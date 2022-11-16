@@ -1,0 +1,306 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 240,
+            "Height": 240,
+            "Color": {
+              "Red": 100,
+              "Green": 155,
+              "Blue": 189
+            }
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "boxProgress1",
+            "X": 28,
+            "Y": 63,
+            "Width": 184,
+            "Height": 20,
+            "Color": {
+              "Red": 89,
+              "Green": 255
+            },
+            "Direction": "Right",
+            "Style": "Style3",
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_medium_progress_indicator_bg_square_0_degrees.png",
+            "IndicatorPositionX": 2,
+            "IndicatorPositionY": 2,
+            "IndicatorPositionWidth": 180,
+            "IndicatorPositionHeight": 16,
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 50
+          },
+          {
+            "Type": "TextProgress",
+            "Name": "textProgress1",
+            "X": 78,
+            "Y": 98,
+            "Width": 84,
+            "Height": 29,
+            "NumberOfDecimals": 1,
+            "TextId": "__SingleUse_KPXL",
+            "IndicatorPositionWidth": 84,
+            "IndicatorPositionHeight": 34,
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 50
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 54,
+            "Y": 27,
+            "Width": 133,
+            "Height": 24,
+            "TextId": "__SingleUse_DCLY",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "scroll_left1",
+            "X": 29,
+            "Y": 171,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "left.png",
+                "ImagePressed": "left.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "scroll_right1",
+            "X": 162,
+            "Y": 171,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "right.png",
+                "ImagePressed": "right.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "scroll_right1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background2",
+            "Width": 240,
+            "Height": 240,
+            "Color": {
+              "Red": 100,
+              "Green": 155,
+              "Blue": 189
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Scroll_left2",
+            "X": 29,
+            "Y": 171,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "left.png",
+                "ImagePressed": "left.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Scroll_right2",
+            "X": 162,
+            "Y": 171,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "right.png",
+                "ImagePressed": "right.png"
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Overall_Pow_Title",
+            "X": 10,
+            "Y": 15,
+            "Width": 177,
+            "Height": 17,
+            "TextId": "__SingleUse_9CNK",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Overall_Pow_Val",
+            "X": 10,
+            "Y": 36,
+            "Width": 69,
+            "Height": 17,
+            "TextId": "__SingleUse_E4CR",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Wind_Pow_Title",
+            "X": 10,
+            "Y": 63,
+            "Width": 162,
+            "Height": 17,
+            "TextId": "__SingleUse_NVNU",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Wind_Pow_Val",
+            "X": 10,
+            "Y": 84,
+            "Width": 69,
+            "Height": 17,
+            "TextId": "__SingleUse_GI8H",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Solar_Pow_Title",
+            "X": 10,
+            "Y": 111,
+            "Width": 161,
+            "Height": 17,
+            "TextId": "__SingleUse_I09W",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Solar_Pow_Val",
+            "X": 10,
+            "Y": 132,
+            "Width": 69,
+            "Height": 17,
+            "TextId": "__SingleUse_ODY0",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Scroll_left2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "GUI",
+    "Resolution": {
+      "Width": 240,
+      "Height": 240
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 240
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32L4",
+    "Platform": "m4",
+    "ProjectFile": "../STM32L496G-DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.20.0",
+  "CreatedBy": "4.20.0"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.20.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_ODY0" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0.000 KWh</Translation>
+      </Text>
+      <Text Id="__SingleUse_I09W" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Solar Power Production:</Translation>
+      </Text>
+      <Text Id="__SingleUse_GI8H" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0.000 KWh</Translation>
+      </Text>
+      <Text Id="__SingleUse_NVNU" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Wind Power Production:</Translation>
+      </Text>
+      <Text Id="__SingleUse_E4CR" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0.000 KWh</Translation>
+      </Text>
+      <Text Id="__SingleUse_9CNK" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Overall Power Production:</Translation>
+      </Text>
+      <Text Id="__SingleUse_DCLY" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">Battery Level</Translation>
+      </Text>
+      <Text Id="__SingleUse_KPXL" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt; %</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="GOTHIC.TTF" Size="14" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789." />
+  </Typographies>
+</TextDatabase>
